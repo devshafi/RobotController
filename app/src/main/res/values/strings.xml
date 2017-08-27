@@ -1,0 +1,34 @@
+<resources>
+
+
+    <string name="app_name">Robo Controller</string>
+    <string name="slogan">Control is in your hand </string>
+    <string name="version">version 1.0.0</string>
+    <string name="show_paired_device">Show Paired Device</string>
+    <string name="search_for_device">Search for device</string>
+    <string name="text_pair">Pair</string>
+    <string name="bt_condition_text_on">Bluetooth is on</string>
+    <string name="bt_condition_text_off">Bluetooth is off</string>
+    <string name="bt_switch">On/Off</string>
+    <string name="ok">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_view_paired">Paired Devices</string>
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+
+    <string name="text_connect">Connect</string>
+    <string name="text_connected">Connected</string>
+    <string name="text_disconnected">Disconnect</string>
+
+    <string name="btn_forward">forward</string>
+    <string name="btn_backward">backward</string>
+    <string name="btn_right">right</string>
+    <string name="btn_left">left</string>
+    <string name="btn_disconnect">disconnect</string>
+    <string name="light_mode">Light Control</string>
+    <string name="car_mode">Car Control</string>
+
+</resources>

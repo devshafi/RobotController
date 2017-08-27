@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffbf80"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <Button
+        android:id="@+id/connectBtn"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_calc"
+        android:layout_below="@+id/device_address"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_connect"/>
+
+    <Button
+        android:id="@+id/btn_pair"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_calc"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/bt_pair"
+        android:soundEffectsEnabled="true"
+        android:text="@string/text_pair" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btn_pair"
+        android:layout_toLeftOf="@+id/btn_pair"
+        android:text="Galaxy Nexus"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/device_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_pair"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btn_pair"
+        android:text="000000000"
+        android:textSize="14sp" />
+
+</RelativeLayout>
